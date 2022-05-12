@@ -1,2 +1,11 @@
-/cp4d-gateway/
-/tf-scripts/
+# Ignore everything.
+**
+
+# But include these files...
+!.gitignore
+!LICENSE
+!README.md
+
+# ... and these files under the 'tf' directory...
+!cp4d-gateway/
+!tf-scripts/
