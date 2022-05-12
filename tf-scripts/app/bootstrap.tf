@@ -20,7 +20,7 @@ locals {
 module "cp4d-gateway" {
   # Specify the location of the module, which contains the file main.tf.
   source = "./modules/deployment"
-  dir_name = "../${local.svc_gateway}/gateway"
+  dir_name = "../../${local.svc_gateway}/gateway"
   app_name = var.app_name
   app_version = var.app_version
   namespace = local.namespace
