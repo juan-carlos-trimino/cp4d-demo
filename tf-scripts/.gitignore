@@ -1,0 +1,25 @@
+# Ignore everything.
+**
+
+# But include these files...
+!.gitignore
+# !LICENSE
+# !README.md
+
+# ... and these files under the 'tf' directory...
+!app/
+app/*
+!app/bootstrap.tf
+!app/data.tf
+!app/namespace.tf
+!app/providers.tf
+!app/variables_no_push.tf.template
+!app/variables.tf
+# ... and these directories...
+!app/modules/
+app/modules/*
+!app/modules/.gitkeep
+#
+!app/modules/deployment/
+app/modules/deployment/*
+!app/modules/deployment/main.tf
